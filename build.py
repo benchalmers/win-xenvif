@@ -360,8 +360,6 @@ if __name__ == '__main__':
     else:
         release = 'Windows 7'
 
-    release = 'Windows Vista'
-
     build_sln(driver, release, 'x86', debug[sys.argv[1]], vs)
     build_sln(driver, release, 'x64', debug[sys.argv[1]], vs)
 
